@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KML to GPX installed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 720px;
+      padding: 32px 20px 40px;
+      background: radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 55%),
+                  radial-gradient(circle at bottom, rgba(52, 211, 153, 0.15), transparent 55%),
+                  rgba(15, 23, 42, 0.9);
+      border-radius: 24px;
+      box-shadow:
+        0 24px 60px rgba(15, 23, 42, 0.85),
+        0 0 0 1px rgba(148, 163, 184, 0.15);
+      backdrop-filter: blur(18px);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 2.4vw, 2.4rem);
+      margin-bottom: 20px;
+      letter-spacing: 0.03em;
+    }
+
+    p {
+      font-size: 1.02rem;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #cbd5f5;
+    }
+
+    .step {
+      margin-top: 24px;
+    }
+
+    .step img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 14px auto 0;
+      border-radius: 16px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>KML to GPX installed</h1>
+
+    <section class="step">
+      <p>
+        Click the puzzle piece (1) in the top right of your browser. Then, click the little pin (2) next to the extension:
+      </p>
+      <!-- Replace "pin-extension.png" with your actual image filename -->
+      <img src="pin-extension.png" alt="Instructions showing how to pin the KML to GPX extension in the browser toolbar." />
+    </section>
+
+    <section class="step">
+      <p>
+        Open the extension (3) on any page to start using KML to GPX:
+      </p>
+      <!-- Replace "open-extension.png" with your actual image filename -->
+      <img src="open-extension.png" alt="Instructions showing how to open the KML to GPX extension." />
+    </section>
+  </main>
+</body>
+</html>
+
